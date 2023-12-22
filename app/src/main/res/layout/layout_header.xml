@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    android:background="#FF9800"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <ImageView
+       android:layout_width="200dp"
+       android:layout_height="200dp"
+       android:src="@drawable/zfold" />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Nhom 7"
+       android:textColor="#101010"
+       android:textSize="30sp" />
+
+</LinearLayout>

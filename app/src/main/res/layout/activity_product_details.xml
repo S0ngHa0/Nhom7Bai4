@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvProductDetailsMaSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã SP: "
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/tvProductDetailsTenSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên SP: "
+        android:textSize="18sp"
+        android:layout_below="@id/tvProductDetailsMaSP"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/tvProductDetailsSoLuong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số lượng: "
+        android:textSize="18sp"
+        android:layout_below="@id/tvProductDetailsTenSP"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/tvProductDetailsLoaiSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loại SP: "
+        android:textSize="18sp"
+        android:layout_below="@id/tvProductDetailsSoLuong"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>
+
+</RelativeLayout>
